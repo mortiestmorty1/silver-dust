@@ -16,6 +16,9 @@ module.exports = {
         },
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'text-primary': 'var(--text-primary)',
+        'text-secondary': 'var(--text-secondary)',
+        'text-muted': 'var(--text-muted)',
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)', 'Arial', 'Helvetica', 'sans-serif'],

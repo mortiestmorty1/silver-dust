@@ -3,11 +3,11 @@ export default function HeroSection() {
     <section className="pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-text-primary mb-6">
             Discover Exquisite{" "}
             <span className="gradient-text">Jewelry</span>
           </h1>
-          <p className="text-xl md:text-2xl text-pink-dark mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-text-secondary mb-8 max-w-3xl mx-auto">
             Handcrafted with love and precision, our jewelry collection features timeless pieces 
             that celebrate your unique style and special moments.
           </p>
@@ -15,7 +15,7 @@ export default function HeroSection() {
             <button className="bg-gradient-to-r from-pink to-pink-dark text-white px-8 py-3 rounded-lg font-semibold hover:from-pink-dark hover:to-pink transition-all duration-300 transform hover:scale-105">
               Shop Collection
             </button>
-            <button className="border-2 border-pink text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-pink hover:text-white transition-all duration-300">
+            <button className="border-2 border-pink text-text-primary px-8 py-3 rounded-lg font-semibold hover:bg-pink hover:text-white transition-all duration-300">
               View Gallery
             </button>
           </div>
@@ -31,8 +31,8 @@ export default function HeroSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold text-foreground mb-2">Featured Collection</h3>
-                <p className="text-pink-dark">Discover our latest handcrafted pieces</p>
+                <h3 className="text-2xl font-semibold text-text-primary mb-2">Featured Collection</h3>
+                <p className="text-text-secondary">Discover our latest handcrafted pieces</p>
               </div>
             </div>
           </div>

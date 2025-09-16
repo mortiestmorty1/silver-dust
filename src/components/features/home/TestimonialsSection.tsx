@@ -27,17 +27,17 @@ export default function TestimonialsSection() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
             What Our Customers Say
           </h2>
-          <p className="text-lg text-pink-dark max-w-2xl mx-auto">
+          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
             Don't just take our word for it. Here's what our valued customers have to say about their Silver Dust experience.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="glass-effect p-8 rounded-xl border border-pink/15 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div key={testimonial.id} className="glass-effect p-8 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-pink" fill="currentColor" viewBox="0 0 20 20">
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
                   </svg>
                 ))}
               </div>
-              <p className="text-pink-dark mb-6 italic">
+              <p className="text-text-secondary mb-6 italic">
                 "{testimonial.content}"
               </p>
               <div className="flex items-center">
@@ -55,8 +55,8 @@ export default function TestimonialsSection() {
                   </span>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
-                  <p className="text-sm text-pink-dark">{testimonial.role}</p>
+                  <h4 className="font-semibold text-text-primary">{testimonial.name}</h4>
+                  <p className="text-sm text-text-secondary">{testimonial.role}</p>
                 </div>
               </div>
             </div>

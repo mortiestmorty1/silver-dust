@@ -6,7 +6,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold gradient-text mb-4">Silver Dust Jewelry</h3>
-            <p className="text-pink-dark mb-4 max-w-md">
+            <p className="text-text-secondary mb-4 max-w-md">
               Crafting exquisite jewelry pieces that capture the essence of elegance and timeless beauty. 
               Each piece is carefully designed to make you feel special and confident.
             </p>
@@ -36,7 +36,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-foreground mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-text-primary mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#collections" className="text-pink-dark hover:text-pink transition-colors">Collections</a></li>
               <li><a href="#rings" className="text-pink-dark hover:text-pink transition-colors">Rings</a></li>
@@ -48,7 +48,7 @@ export default function Footer() {
 
           {/* Customer Service */}
           <div>
-            <h4 className="text-lg font-semibold text-foreground mb-4">Customer Service</h4>
+            <h4 className="text-lg font-semibold text-text-primary mb-4">Customer Service</h4>
             <ul className="space-y-2">
               <li><a href="#contact" className="text-pink-dark hover:text-pink transition-colors">Contact Us</a></li>
               <li><a href="#shipping" className="text-pink-dark hover:text-pink transition-colors">Shipping Info</a></li>
@@ -62,7 +62,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-pink/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-pink-dark text-sm">
+            <p className="text-text-secondary text-sm">
               © 2024 Silver Dust Jewelry. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
