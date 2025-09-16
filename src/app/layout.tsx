@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextTopLoader
-          color="#f8bbd9"
+          color="#fce7f3"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}
@@ -37,7 +37,7 @@ export default function RootLayout({
           showSpinner={false}
           easing="ease"
           speed={200}
-          shadow="0 0 10px #f8bbd9,0 0 5px #f8bbd9"
+          shadow="0 0 10px #fce7f3,0 0 5px #fce7f3"
           template='<div class="bar" role="bar"><div class="peg"></div></div> 
           <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
           zIndex={1600}

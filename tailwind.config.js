@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       colors: {
         pink: {
-          DEFAULT: '#f8bbd9',
-          light: '#fef7f7',
-          dark: '#d946ef',
-          accent: '#f0a6d3',
+          DEFAULT: '#fce7f3',
+          light: '#ffffff',
+          dark: '#f8bbd9',
+          accent: '#fef7f7',
         },
         background: 'var(--background)',
         foreground: 'var(--foreground)',

@@ -8,7 +8,7 @@ import CTASection from '@/components/features/home/CTASection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-pink-light/10 to-pink-light/20 dark:from-pink-dark/5 dark:via-pink-dark/10 dark:to-pink-dark/15">
+    <div className="min-h-screen bg-white">
       <Navbar />
       
       <main>

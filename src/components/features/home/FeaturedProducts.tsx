@@ -45,8 +45,8 @@ export default function FeaturedProducts() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product) => (
             <div key={product.id} className="glass-effect p-6 rounded-xl hover:transform hover:scale-105 transition-all duration-300 group border border-pink/15 shadow-lg hover:shadow-xl">
-              <div className="aspect-square bg-gradient-to-br from-pink-light/15 to-pink/8 rounded-lg flex items-center justify-center mb-4 group-hover:from-pink/10 group-hover:to-pink-light/20 transition-all duration-300 border border-pink/10 shadow-md">
-                <div className="w-16 h-16 bg-pink/10 rounded-full flex items-center justify-center border border-pink/20 shadow-sm">
+              <div className="aspect-square bg-white rounded-lg flex items-center justify-center mb-4 group-hover:bg-gray-50 transition-all duration-300 border border-gray-200 shadow-md">
+                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center border border-gray-200 shadow-sm">
                   <svg className="w-8 h-8 text-pink" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
                   </svg>

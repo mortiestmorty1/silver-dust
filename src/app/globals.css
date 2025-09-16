@@ -3,10 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --pink: #f8bbd9;
-  --pink-light: #fef7f7;
-  --pink-dark: #d946ef;
-  --pink-accent: #f0a6d3;
+  --pink: #fce7f3;
+  --pink-light: #ffffff;
+  --pink-dark: #f8bbd9;
+  --pink-accent: #fef7f7;
 }
 
 @theme inline {
@@ -24,10 +24,10 @@
   :root {
     --background: #ffffff;
     --foreground: #171717;
-    --pink: #f0a6d3;
-    --pink-light: #fef7f7;
-    --pink-dark: #d946ef;
-    --pink-accent: #f8bbd9;
+    --pink: #fce7f3;
+    --pink-light: #ffffff;
+    --pink-dark: #f8bbd9;
+    --pink-accent: #fef7f7;
   }
 }
 
@@ -38,23 +38,23 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #f8bbd9, #f0a6d3, #d946ef);
+  background: linear-gradient(135deg, #fce7f3, #f8bbd9, #fef7f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .glass-effect {
-  background: rgba(248, 187, 217, 0.05);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(248, 187, 217, 0.2);
+  border: 1px solid rgba(252, 231, 243, 0.3);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 @media (prefers-color-scheme: dark) {
   .glass-effect {
-    background: rgba(248, 187, 217, 0.08);
-    border: 1px solid rgba(248, 187, 217, 0.25);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(252, 231, 243, 0.4);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
   }
 }
